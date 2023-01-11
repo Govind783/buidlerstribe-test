@@ -1,0 +1,368 @@
+/* WRITTEN BY ME  */
+
+* {
+    box-sizing: border-box;
+    max-width: 100% !important;
+  }
+  
+  img {
+    height: auto;
+  }
+  
+  
+  .heroImgHold {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+  }
+  
+  .heroImg {
+    margin-left: 2rem;
+  
+  }
+  
+  
+  /*  PITCH SECTION */
+  .pitch {
+    font-family: Gilroy;
+    font-size: 2.5rem !important;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: -4rem;
+  }
+  
+  .pitchSectionHold {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+    text-align: left;
+    margin-left: 12rem;
+  }
+  
+  .applyBtn {
+    background-color: 407BFF;
+    color: white;
+    border: 0px solid;
+    border-radius: 12px;
+    width: 22rem;
+    height: 5rem;
+  }
+  
+  @media(max-width:650px) {
+    .pitchSectionHold {
+      margin-left: 2rem !important;
+      justify-content: center !important;
+    }
+  
+  
+  }
+  
+
+  /*  FUNDING AND WINNER SECTION  */
+  
+  .winnerMainParent {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100% !important;
+    gap: 17rem;
+    margin-left: -3rem;
+  }
+  
+  
+  
+  .winnerHold {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .onemil {
+    font-family: 'Gilroy';
+    font-size: 10rem;
+  }
+  
+  
+  .coinD {
+    width: 20rem;
+  }
+  
+  
+  .line {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 46.52%, rgba(0, 0, 0, 0) 100%);
+    border-image-source: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 46.52%, rgba(0, 0, 0, 0) 100%);
+    width: 0.14rem;
+    height: 54rem;
+  
+  
+  }
+  
+  @media(max-width:980px) {
+    .line {
+      display: none;
+  
+    }
+  
+    .winnerMainParent {
+      flex-direction: column;
+      gap: -10rem !important;
+    }
+  }
+  
+  
+  .ml4 {
+    margin-left: 4rem;
+  
+  }
+  
+
+  
+  .coinPitch {
+    font-family: Gilroy;
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  
+  }
+  
+  .coindcx {
+    font-family: Gilroy;
+    font-size: 5.4rem;
+    font-weight: 500;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2.4rem;
+  
+  }
+  
+  .amt {
+    font-size: 7rem;
+  }
+  
+  
+  body {
+    text-transform: capitalize;
+  }
+  
+  .grey {
+    color: rgba(154, 152, 152, 0.901);
+  }
+  
+  .mb1 {
+    margin-bottom: 3rem;
+  }
+  
+
+
+
+  /*  MENTOR SECTION  */
+  
+  .peopleHold {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row !important;
+    align-items: center;
+    text-align: center;
+    max-width: 100% !important;
+    width: 100%;
+  }
+  
+  .People {
+    display: flex;
+    gap: 14rem;
+    width: 69%;
+    flex-wrap: wrap;
+    row-gap: 8rem;
+  }
+  
+  .center {
+    text-align: center;
+    margin-bottom: 6rem;
+    padding-left: 4rem;
+  }
+  
+  
+  /* FAQ */
+  
+  
+  
+  
+  .faq {
+    background: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 6%);
+    border-radius: 4px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 87rem;
+  
+  }
+  
+  .faq-section {
+    background: #fdfdfd;
+    min-height: 100vh;
+    padding: 10vh 0 0;
+  }
+  
+  .faq-title h2 {
+    position: relative;
+    margin-bottom: 45px;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1;
+  }
+  
+  .faq-title h2::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 60px;
+    height: 2px;
+    background: #eceff1;
+    bottom: -25px;
+    margin-left: -30px;
+  }
+  
+  .faq-title p {
+    padding: 0 190px;
+    margin-bottom: 10px;
+  }
+  
+  .faq {
+    background: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    margin-left: 1.4rem;
+  }
+  
+  
+  .badge {
+    color: #000 !important;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin: -10px 15rem auto;
+  
+  }
+  
+  @media(max-width:700px){
+    .flex{
+      margin: -25px 4rem auto;
+    }
+  }
+  
+  .faq .card {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #CEE1F8;
+    width: 98rem;
+  
+  }
+  
+  .col-md-6 {
+    width: 100rem;
+  }
+  
+  .faq .card .card-header {
+    padding: 0px;
+    border: none;
+    background: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .faq .card .card-header:hover {
+    padding-left: 10px;
+    background-color: #eceff1;
+  }
+  
+  .faq .card .card-header .faq-title {
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000;
+    text-decoration: none !important;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .faq .card .card-header .faq-title .badge {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 14px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-align: center;
+    background: #eceff1;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 20px;
+  }
+  
+  .faq .card .card-body {
+    padding: 30px;
+    padding-left: 35px;
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    line-height: 28px;
+    letter-spacing: 1px;
+    border-top: 1px solid #F3F8FF;
+  }
+  
+  .faq .card .card-body p {
+    margin-bottom: 14px;
+  }
+  
+  @media (max-width: 991px) {
+    .faq {
+      margin-bottom: 30px;
+    }
+  
+    .faq .card .card-header .faq-title {
+      line-height: 26px;
+      margin-top: 10px;
+    }
+  }
+  
